@@ -103,6 +103,7 @@ Community Edition is free to use
 ### Dynamic Loading and Unit Testing
 * [Dynamically Loading Types in .NET Core with a Custom Assembly Load Context](https://jeremybytes.blogspot.com/2020/01/dynamically-loading-types-in-net-core.html) by Jeremy Clark
 * [Getting Started with Dependency Injection in .NET](https://app.pluralsight.com/library/courses/using-dependency-injection-on-ramp) Pluralsight course by Jeremy Clark
+* [Cross-Platform Build Events in .NET Core using MSBuild](https://jeremybytes.blogspot.com/2020/05/cross-platform-build-events-in-net-core.html) by Jeremy Clark
 
 
 ### Explicit Interface Implementation
