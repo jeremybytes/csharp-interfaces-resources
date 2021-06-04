@@ -12,7 +12,7 @@ The code samples are in folders starting with the environment (dotnet5), followe
 The code samples can be followed using Visual Studio 2019 (Windows) or Visual Studio Code (Windows, Linux, macOS).
 
 ### Visual Studio 2019 (Community Edition)
-When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so not special action is required.
+When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so no special action is required.
 
 **Running the Web Service and Application**  
 To run a project, click F5 or use "Start debugging" from the toolbar or Debug menu.
@@ -46,7 +46,7 @@ If you open a browser to http://localhost:9874/people, you will see data from th
 
 You can leave this terminal open for all of the samples; each sample uses the same web service.
 
-To stop the service, press "Ctrl+C".
+To stop the service, press "Ctrl+C" in the terminal.
 
 **Running the Web Application**  
 To run the web application (PeopleViewer), use the following steps:
