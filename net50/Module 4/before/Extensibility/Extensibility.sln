@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Service", "People.Service\People.Service.csproj", "{D9161871-8793-4A4C-855C-8F1916B33F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9996915A-5767-4D4F-B662-3BD143AD5EDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readers", "Readers", "{EBDE7883-D671-4736-8FA6-87699F60D81B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.Interface", "PersonReader.Interface\PersonReader.Interface.csproj", "{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleViewer", "PeopleViewer\PeopleViewer.csproj", "{92454235-3ABD-4D1F-8B85-B212A2D96AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Service", "PersonReader.Service\PersonReader.Service.csproj", "{010D9C75-96C3-4EC9-8639-1C107509FD5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.CSV", "PersonReader.CSV\PersonReader.CSV.csproj", "{ED4E9A22-53B1-429C-BB82-4438E2EE33B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.SQL", "PersonReader.SQL\PersonReader.SQL.csproj", "{DA454000-344F-4C50-BF62-8749E5F9B929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Factory", "PersonReader.Factory\PersonReader.Factory.csproj", "{4E2EB6DA-454E-4141-8D37-4D45813E94F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9161871-8793-4A4C-855C-8F1916B33F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9161871-8793-4A4C-855C-8F1916B33F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9161871-8793-4A4C-855C-8F1916B33F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9161871-8793-4A4C-855C-8F1916B33F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92454235-3ABD-4D1F-8B85-B212A2D96AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92454235-3ABD-4D1F-8B85-B212A2D96AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92454235-3ABD-4D1F-8B85-B212A2D96AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92454235-3ABD-4D1F-8B85-B212A2D96AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010D9C75-96C3-4EC9-8639-1C107509FD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010D9C75-96C3-4EC9-8639-1C107509FD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010D9C75-96C3-4EC9-8639-1C107509FD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010D9C75-96C3-4EC9-8639-1C107509FD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4E9A22-53B1-429C-BB82-4438E2EE33B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4E9A22-53B1-429C-BB82-4438E2EE33B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4E9A22-53B1-429C-BB82-4438E2EE33B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4E9A22-53B1-429C-BB82-4438E2EE33B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA454000-344F-4C50-BF62-8749E5F9B929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA454000-344F-4C50-BF62-8749E5F9B929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA454000-344F-4C50-BF62-8749E5F9B929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA454000-344F-4C50-BF62-8749E5F9B929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2EB6DA-454E-4141-8D37-4D45813E94F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2EB6DA-454E-4141-8D37-4D45813E94F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2EB6DA-454E-4141-8D37-4D45813E94F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2EB6DA-454E-4141-8D37-4D45813E94F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9161871-8793-4A4C-855C-8F1916B33F99} = {9996915A-5767-4D4F-B662-3BD143AD5EDA}
+		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{010D9C75-96C3-4EC9-8639-1C107509FD5A} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{ED4E9A22-53B1-429C-BB82-4438E2EE33B6} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{DA454000-344F-4C50-BF62-8749E5F9B929} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{4E2EB6DA-454E-4141-8D37-4D45813E94F0} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {313631F0-55E2-4C7B-9684-7EA8D87581E0}
+	EndGlobalSection
+EndGlobal

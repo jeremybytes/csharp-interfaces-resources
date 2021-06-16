@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonReader.Interface\PersonReader.Interface.csproj">
+      <Private>false</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Target Name="CopyDataReader" AfterTargets="Build">
+    <ItemGroup>
+      <DataReaders Include="$(TargetDir)\*.*"/>
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(DataReaders)"
+      DestinationFolder="$(ProjectDir)..\ReaderAssemblies\"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="CopySQLiteDll_win" AfterTargets="Build"
+          Condition=" '$(OS)' == 'Windows_NT' ">
+    <ItemGroup>
+      <DataReaders Include="$(TargetDir)runtimes\win-x64\native\e_sqlite3.dll"/>
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(DataReaders)"
+      DestinationFolder="$(ProjectDir)..\ReaderAssemblies\"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="CopySQLiteDll_macos" AfterTargets="Build"
+          Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))'">
+    <ItemGroup>
+      <DataReaders Include="$(TargetDir)runtimes\osx-x64\native\libe_sqlite3.dylib"/>
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(DataReaders)"
+      DestinationFolder="$(ProjectDir)..\ReaderAssemblies\"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="CopySQLiteDll_linux" AfterTargets="Build"
+          Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
+    <ItemGroup>
+      <DataReaders Include="$(TargetDir)runtimes\linux-x64\native\libe_sqlite3.so"/>
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(DataReaders)"
+      DestinationFolder="$(ProjectDir)..\ReaderAssemblies\"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

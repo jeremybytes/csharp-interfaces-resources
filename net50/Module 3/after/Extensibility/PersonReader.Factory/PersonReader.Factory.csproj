@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonReader.CSV\PersonReader.CSV.csproj" />
+    <ProjectReference Include="..\PersonReader.Interface\PersonReader.Interface.csproj" />
+    <ProjectReference Include="..\PersonReader.Service\PersonReader.Service.csproj" />
+    <ProjectReference Include="..\PersonReader.SQL\PersonReader.SQL.csproj" />
+  </ItemGroup>
+
+</Project>

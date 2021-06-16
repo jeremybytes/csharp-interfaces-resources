@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonReader.Interface\PersonReader.Interface.csproj">
+      <Private>false</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Target Name="CopyDataReader" AfterTargets="Build">
+    <ItemGroup>
+      <DataReaders Include="$(TargetDir)\*.*"/>
+    </ItemGroup>
+
+    <Copy
+      SourceFiles="@(DataReaders)"
+      DestinationFolder="$(ProjectDir)..\ReaderAssemblies\"
+      SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

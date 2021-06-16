@@ -1,0 +1,18 @@
+﻿@model IEnumerable<PersonReader.Interface.Person>
+
+<h1>Commanders - @ViewData["Title"]</h1>
+
+<section>
+
+    @foreach (var person in Model)
+    {
+        <div data="@person.StartDate.Year.ToString()[2]">
+            <span class="name">@person.ToString()</span>
+            <span class="year">@person.StartDate.Year</span>
+            <span class="rating">@person.Rating/10 stars</span>
+        </div>
+    }
+
+</section>
+<hr />
+<span>Reader Type: @ViewData["ReaderType"]</span>

@@ -86,6 +86,9 @@ A total of 1 test files matched the specified pattern.
 Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 60 ms - PeopleViewer.Test.dll (net5.0)
 ```
 
+## Relevant Files  
+For a listing of the relevant files in each sample project, please refer to the [RelevantFiles.md](/RelevantFiles.md) file.
+
 ## Articles & Links
 
 ### Introducing Interfaces

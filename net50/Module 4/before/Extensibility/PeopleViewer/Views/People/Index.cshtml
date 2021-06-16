@@ -1,0 +1,29 @@
+﻿@using PersonReader.Interface
+@model IEnumerable<Person>
+
+<h1>Commanders - @ViewData["Title"]</h1>
+
+<section>
+
+    @if (Model.Count() == 0)
+    {
+        <div data="7">
+            <span class="name">No Data</span>
+        </div>
+    }
+
+    @foreach (Person person in Model)
+    {
+        <div data="@person.StartDate.Year.ToString()[2]">
+            <span class="name">@person.ToString()</span>
+            <span class="year">@person.StartDate.Year</span>
+            <span class="rating">@person.Rating/10 stars</span>
+        </div>
+    }
+
+</section>
+<hr />
+@if (ViewData["ReaderType"] is not null)
+{
+<span>Reader Type: @ViewData["ReaderType"]</span>
+}
