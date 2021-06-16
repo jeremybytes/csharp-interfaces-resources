@@ -91,7 +91,9 @@ For a listing of the relevant files in each sample project, please refer to the 
 
 ## Articles & Links
 
-### Introducing Interfaces
+### 1 - Course Overview
+
+### 2 - Introducing Interfaces
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (Windows only)  
 Community Edition is free to use
 * [.NET 5.0](https://dotnet.microsoft.com/download) (Windows, Linux, macOS)
@@ -99,21 +101,21 @@ Community Edition is free to use
 * [Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
 
 
-### Creating Interfaces to Add Extensibility
+### 3 - Creating Interfaces to Add Extensibility
 * [Patterns of Enterprise Application Architecture](https://www.martinfowler.com/books/eaa.html) by Martin Fowler, et al.
 
 
-### Dynamic Loading and Unit Testing
+### 4 - Dynamic Loading and Unit Testing
 * [Dynamically Loading Types in .NET Core with a Custom Assembly Load Context](https://jeremybytes.blogspot.com/2020/01/dynamically-loading-types-in-net-core.html) by Jeremy Clark
 * [Getting Started with Dependency Injection in .NET](https://app.pluralsight.com/library/courses/using-dependency-injection-on-ramp) Pluralsight course by Jeremy Clark
 * [Cross-Platform Build Events in .NET Core using MSBuild](https://jeremybytes.blogspot.com/2020/05/cross-platform-build-events-in-net-core.html) by Jeremy Clark
 
 
-### Explicit Interface Implementation
+### 5 - Explicit Interface Implementation
 * [Explicit Interface Implementation (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation)
 
 
-### Default Implementation and Advanced Topics
+### 6 - Default Implementation and Advanced Topics
 * [A Closer Look at C# 8 Interfaces](https://jeremybytes.blogspot.com/2019/09/a-closer-look-at-c-8-interfaces.html) by Jeremy Clark  
 * [C# 8 Interfaces: Properties and Default Implementation](https://jeremybytes.blogspot.com/2019/09/c-8-interfaces-properties-and-default.html) by Jeremy Clark
 * [C# 8 Interfaces: Public, Private, and Protected Members](https://jeremybytes.blogspot.com/2019/11/c-8-interfaces-public-private-and.html) by Jeremy Clark  
