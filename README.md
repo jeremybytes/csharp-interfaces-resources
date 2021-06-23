@@ -94,10 +94,13 @@ For a listing of the relevant files in each sample project, please refer to the 
 ### 1 - Course Overview
 
 ### 2 - Introducing Interfaces
+Downloads
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (Windows only)  
 Community Edition is free to use
 * [.NET 5.0](https://dotnet.microsoft.com/download) (Windows, Linux, macOS)
-* [Visual Studio Code](https://code.visualstudio.com/download) (Windows, Linux, macOS)
+* [Visual Studio Code](https://code.visualstudio.com/download) (Windows, Linux, macOS)  
+
+Article
 * [Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
 
 
