@@ -5,7 +5,9 @@ This repository contains sample code and additional resources for the "C# Interf
 The code samples are in folders starting with the environment (dotnet5), followed by the course module (module1). From there, the "before" and "after" folders contain the code at the beginning of the demo and the code at the end of the demo, respectively.
 
 ## Pluralsight Course
-* [C# Interfaces](http://www.pluralsight.com/courses/c-sharp-interfaces) by Jeremy Clark  
+* [C# Interfaces](http://www.pluralsight.com/courses/c-sharp-interfaces) by Jeremy Clark (released Jun 2021)  
+
+To see what is new and changed from the previous course, please see [ChangeLog.md](/ChangeLog.md).
 
 ## Running the Samples  
 The code samples can be followed using Visual Studio 2019 (Windows) or Visual Studio Code (Windows, Linux, macOS).
