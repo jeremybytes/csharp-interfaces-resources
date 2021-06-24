@@ -2,7 +2,7 @@
 This repository contains sample code and additional resources for the "C# Interfaces" course by Jeremy Clark on Pluralsight. The examples use .NET 5.0. Updated sample code will be posted after .NET 6 is released.  
 
 ## Code Samples
-The code samples are in folders starting with the environment (dotnet5), followed by the course module (module1). From there, the "before" and "after" folders contain the code at the beginning of the demo and the code at the end of the demo, respectively.
+The code samples are in folders starting with the environment (net50), followed by the course module (module1). From there, the "before" and "after" folders contain the code at the beginning of the demo and the code at the end of the demo, respectively.
 
 ## Pluralsight Course
 * [C# Interfaces](http://www.pluralsight.com/courses/c-sharp-interfaces) by Jeremy Clark (released Jun 2021)  
