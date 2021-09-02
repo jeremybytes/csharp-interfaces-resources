@@ -103,7 +103,8 @@ You will want to use the "Download .NET SDK" to get the developer version of .NE
 * [Visual Studio Code](https://code.visualstudio.com/download) (Windows, Linux, macOS)  
 
 Article
-* [Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
+* [The Secret Code: ASP.NET MVC Conventions](https://jeremybytes.blogspot.com/2020/02/the-secret-code-aspnet-mvc-conventions.html) by Jeremy Clark
+* [Interfaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/) Microsoft Docs
 
 
 ### 3 - Creating Interfaces to Add Extensibility
