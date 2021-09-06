@@ -97,7 +97,8 @@ For a listing of the relevant files in each sample project, please refer to the 
 ### 2 - Introducing Interfaces
 Downloads
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (Windows only)  
-Community Edition is free to use
+Community Edition is free to use.  
+During installation, choose the "ASP.NET and web development" workload.
 * [.NET 5.0](https://dotnet.microsoft.com/download) (Windows, Linux, macOS)  
 You will want to use the "Download .NET SDK" to get the developer version of .NET
 * [Visual Studio Code](https://code.visualstudio.com/download) (Windows, Linux, macOS)  
