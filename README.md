@@ -12,6 +12,8 @@ To see what is new and changed from the previous course, please see [ChangeLog.m
 ## Running the Samples  
 The code samples can be followed using Visual Studio 2019 (Windows) or Visual Studio Code (Windows, Linux, macOS).
 
+*Note: If you have difficulty running the samples, please see the [Troubleshooting Guide](/TroubleShooting.md) for possible solutions.*
+
 ### Visual Studio 2019 (Community Edition)
 When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so no special action is required.
 
@@ -19,6 +21,13 @@ When using Visual Studio, open the solution file (.sln) that is included in each
 To run a project, click F5 or use "Start debugging" from the toolbar or Debug menu.
 
 Your default browser will automatically open to http://localhost:5000 (the location of the web application). When you are done, close the browser window.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Note: If you get the following error:*
+
+```
+'No connection could be made because the target machine actively refused it. [::ffff:127.0.0.1]:9874 (localhost:9874)'
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Then the web service is not running. Check the [Troubleshooting Guide](/TroubleShooting.md) for help.*
 
 **Running the Unit Tests**  
 For the sample that has unit tests, open the Test Explorer in Visual Studio by selection "Test | Test Explorer" from the menu or "Ctrl+E, T".
