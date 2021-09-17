@@ -15,7 +15,7 @@ The code samples can be followed using Visual Studio 2019 (Windows) or Visual St
 *Note: If you have difficulty running the samples, please see the [Troubleshooting Guide](/TroubleShooting.md) for possible solutions.*
 
 ### Visual Studio 2019 (Community Edition)
-When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so no special action is required.
+When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so no special action should be required.
 
 **Running the Web Service and Application**  
 To run a project, click F5 or use "Start debugging" from the toolbar or Debug menu.
