@@ -22,3 +22,5 @@ In Visual Studio, set the solution to have multiple startup projects.
 7. Click "OK".
 
 Now when you run the application (using "F5" or the "Start" button on the toolbar), both the service and the web application will start.
+
+*If you are using Visual Studio Code and/or command line tools, then please follow the instructions under "Running the Application" in the main [README.md](/README.md) file.*
