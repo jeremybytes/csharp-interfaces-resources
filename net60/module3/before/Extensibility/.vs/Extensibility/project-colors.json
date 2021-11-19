@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9517f6b3-27df-4db9-9a4a-36ad20519672": {
+      "ProjectGuid": "9517f6b3-27df-4db9-9a4a-36ad20519672",
+      "DisplayName": "PersonReader.CSV",
+      "ColorIndex": 0
+    },
+    "6de842fc-938b-40bc-b182-17cc65ed0d31": {
+      "ProjectGuid": "6de842fc-938b-40bc-b182-17cc65ed0d31",
+      "DisplayName": "PersonReader.Factory",
+      "ColorIndex": 1
+    },
+    "9861180f-8012-4527-8d94-ad7a66981f2a": {
+      "ProjectGuid": "9861180f-8012-4527-8d94-ad7a66981f2a",
+      "DisplayName": "PersonReader.Interface",
+      "ColorIndex": 2
+    },
+    "da211c97-2c43-4117-be17-1553a441992d": {
+      "ProjectGuid": "da211c97-2c43-4117-be17-1553a441992d",
+      "DisplayName": "PersonReader.Service",
+      "ColorIndex": 3
+    },
+    "5f27cfe5-4392-49bc-b4de-7b982385fabb": {
+      "ProjectGuid": "5f27cfe5-4392-49bc-b4de-7b982385fabb",
+      "DisplayName": "PersonReader.SQL",
+      "ColorIndex": 4
+    },
+    "256bef2a-e77d-4848-aa1e-e558ffdeb104": {
+      "ProjectGuid": "256bef2a-e77d-4848-aa1e-e558ffdeb104",
+      "DisplayName": "PeopleViewer",
+      "ColorIndex": 5
+    },
+    "ddf11099-4e8a-442a-9e14-700d458e9fb4": {
+      "ProjectGuid": "ddf11099-4e8a-442a-9e14-700d458e9fb4",
+      "DisplayName": "People.Service",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}

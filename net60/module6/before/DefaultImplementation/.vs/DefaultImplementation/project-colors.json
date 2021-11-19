@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fdd65bbc-c819-41b4-b9de-cab1cad73162": {
+      "ProjectGuid": "fdd65bbc-c819-41b4-b9de-cab1cad73162",
+      "DisplayName": "PeopleViewer",
+      "ColorIndex": 0
+    },
+    "95b84973-535e-49cd-bf9e-73e40cfaf3af": {
+      "ProjectGuid": "95b84973-535e-49cd-bf9e-73e40cfaf3af",
+      "DisplayName": "People.Library",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

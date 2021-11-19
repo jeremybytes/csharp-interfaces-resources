@@ -1,0 +1,81 @@
+/* START - Jeremy's section */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 800px;
+}
+
+    section > div {
+        border: solid 1px black;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+
+span {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.325em;
+    font-weight: bold;
+}
+
+.rating {
+    text-align: right;
+    font-size: 1em;
+}
+
+.year {
+    text-align: right;
+    font-size: 1em;
+}
+
+/*span:not(.name) {
+    text-align: right;
+}*/
+
+div[data="7"] {
+    background-color: maroon;
+}
+
+div[data="8"] {
+    background-color: darkgreen;
+}
+
+div[data="9"] {
+    background-color: darkslateblue;
+}
+
+div[data="0"] {
+    background-color: cadetblue;
+}
+
+/* END - Jeremy's section */
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

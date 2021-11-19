@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8cbbab9-985e-4f29-960d-58515502faa4": {
+      "ProjectGuid": "c8cbbab9-985e-4f29-960d-58515502faa4",
+      "DisplayName": "PersonReader.Factory",
+      "ColorIndex": 0
+    },
+    "49755f91-0be9-40e8-8028-dd19a97227c5": {
+      "ProjectGuid": "49755f91-0be9-40e8-8028-dd19a97227c5",
+      "DisplayName": "PeopleViewer.Test",
+      "ColorIndex": 1
+    },
+    "1bf46074-8dc2-448d-823e-d1d354fdf856": {
+      "ProjectGuid": "1bf46074-8dc2-448d-823e-d1d354fdf856",
+      "DisplayName": "PeopleViewer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

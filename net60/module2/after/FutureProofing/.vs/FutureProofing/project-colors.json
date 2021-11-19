@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2df4c215-3230-437a-8bdd-142e63429442": {
+      "ProjectGuid": "2df4c215-3230-437a-8bdd-142e63429442",
+      "DisplayName": "Common",
+      "ColorIndex": 0
+    },
+    "62b0be16-2cb1-4980-a5a4-fcf2942e3ccc": {
+      "ProjectGuid": "62b0be16-2cb1-4980-a5a4-fcf2942e3ccc",
+      "DisplayName": "People.Library",
+      "ColorIndex": 1
+    },
+    "c3e8aa72-1a52-46e8-9701-b7196f44270a": {
+      "ProjectGuid": "c3e8aa72-1a52-46e8-9701-b7196f44270a",
+      "DisplayName": "People.Service",
+      "ColorIndex": 2
+    },
+    "d617e73b-3645-4c78-aca5-f0f45fff40e3": {
+      "ProjectGuid": "d617e73b-3645-4c78-aca5-f0f45fff40e3",
+      "DisplayName": "PeopleViewer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

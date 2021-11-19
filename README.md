@@ -1,5 +1,5 @@
 # "C# Interfaces" Resources
-This repository contains sample code and additional resources for the "C# Interfaces" course by Jeremy Clark on Pluralsight. The examples use .NET 5.0. Updated sample code will be posted after .NET 6 is released.  
+This repository contains sample code and additional resources for the "C# Interfaces" course by Jeremy Clark on Pluralsight. The examples in the course use .NET 5.0. Updated samples using .NET 6.0 are available in this repository.  
 
 ## Code Samples
 The code samples are in folders starting with the environment (net50), followed by the course module (module1). From there, the "before" and "after" folders contain the code at the beginning of the demo and the code at the end of the demo, respectively.
@@ -10,11 +10,21 @@ The code samples are in folders starting with the environment (net50), followed 
 To see what is new and changed from the previous course, please see [ChangeLog.md](/ChangeLog.md).
 
 ## Running the Samples  
-The code samples can be followed using Visual Studio 2019 (Windows) or Visual Studio Code (Windows, Linux, macOS).
+The code samples can be followed using Visual Studio (Windows) or Visual Studio Code (Windows, Linux, macOS).
+
+**.NET 5.0 - development tool options**  
+* Visual Studio 2022 (Community Edition)
+* Visual Studio 2019 (Community Edition)
+* Visual Studio Code
+
+**.NET 6.0 - development tool options**  
+* Visual Studio 2022 (Community Edition)  
+(Visual Studio 2019 does *not* support .NET 6.0)
+* Visual Studio Code  
 
 *Note: If you have difficulty running the samples, please see the [Troubleshooting Guide](/TroubleShooting.md) for possible solutions.*
 
-### Visual Studio 2019 (Community Edition)
+### Visual Studio 2022 and Visual Studio 2019
 When using Visual Studio, open the solution file (.sln) that is included in each sample folder. The solution is set up to automatically start the web application as well as the required web service, so no special action should be required.
 
 **Running the Web Service and Application**  
@@ -105,10 +115,13 @@ For a listing of the relevant files in each sample project, please refer to the 
 
 ### 2 - Introducing Interfaces
 Downloads
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (Windows only)  
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) (Windows only)  
 Community Edition is free to use.  
 During installation, choose the "ASP.NET and web development" workload.
-* [.NET 5.0](https://dotnet.microsoft.com/download) (Windows, Linux, macOS)  
+* [.NET 6.0](https://dotnet.microsoft.com/download) (Windows, Linux, macOS)  
+You will want to use the "Download .NET SDK" to get the developer version of .NET
+* [.NET 5.0](https://dotnet.microsoft.com/download/dotnet) (Windows, Linux, macOS)  
+*.NET 5.0 is available until May 2022. After that, you will want to upgrade to .NET 6.0 if you haven't already.*  
 You will want to use the "Download .NET SDK" to get the developer version of .NET
 * [Visual Studio Code](https://code.visualstudio.com/download) (Windows, Linux, macOS)  
 

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5b6d3d3d-1d37-4925-8b53-af3a33d7e5a5": {
+      "ProjectGuid": "5b6d3d3d-1d37-4925-8b53-af3a33d7e5a5",
+      "DisplayName": "CatalogSaver",
+      "ColorIndex": 0
+    },
+    "f6f44c0d-5a69-4667-b1d9-989523e14533": {
+      "ProjectGuid": "f6f44c0d-5a69-4667-b1d9-989523e14533",
+      "DisplayName": "OddNumbers",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

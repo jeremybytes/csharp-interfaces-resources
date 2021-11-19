@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div>
+        <h1>Please make a selection</h1>
+        <ul>
+            <li><strong>@Html.ActionLink("Get People using a Concrete Type", "UseConcreteType", "People")</strong></li>
+            <li><strong>@Html.ActionLink("Get People using an Abstract Type", "UseAbstractType", "People")</strong></li>
+        </ul>
+    </div>

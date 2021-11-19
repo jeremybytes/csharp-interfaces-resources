@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readers", "Readers", "{44E78735-AC02-4104-8AC1-1C71744F1BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F1680E26-0EED-4332-A6CC-81E0B9A959B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Service", "People.Service\People.Service.csproj", "{DDF11099-4E8A-442A-9E14-700D458E9FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.CSV", "PersonReader.CSV\PersonReader.CSV.csproj", "{9517F6B3-27DF-4DB9-9A4A-36AD20519672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Factory", "PersonReader.Factory\PersonReader.Factory.csproj", "{6DE842FC-938B-40BC-B182-17CC65ED0D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Interface", "PersonReader.Interface\PersonReader.Interface.csproj", "{9861180F-8012-4527-8D94-AD7A66981F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Service", "PersonReader.Service\PersonReader.Service.csproj", "{DA211C97-2C43-4117-BE17-1553A441992D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.SQL", "PersonReader.SQL\PersonReader.SQL.csproj", "{5F27CFE5-4392-49BC-B4DE-7B982385FABB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleViewer", "PeopleViewer\PeopleViewer.csproj", "{256BEF2A-E77D-4848-AA1E-E558FFDEB104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF11099-4E8A-442A-9E14-700D458E9FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF11099-4E8A-442A-9E14-700D458E9FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF11099-4E8A-442A-9E14-700D458E9FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF11099-4E8A-442A-9E14-700D458E9FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9517F6B3-27DF-4DB9-9A4A-36AD20519672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9517F6B3-27DF-4DB9-9A4A-36AD20519672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9517F6B3-27DF-4DB9-9A4A-36AD20519672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9517F6B3-27DF-4DB9-9A4A-36AD20519672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE842FC-938B-40BC-B182-17CC65ED0D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE842FC-938B-40BC-B182-17CC65ED0D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE842FC-938B-40BC-B182-17CC65ED0D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE842FC-938B-40BC-B182-17CC65ED0D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9861180F-8012-4527-8D94-AD7A66981F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9861180F-8012-4527-8D94-AD7A66981F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9861180F-8012-4527-8D94-AD7A66981F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9861180F-8012-4527-8D94-AD7A66981F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA211C97-2C43-4117-BE17-1553A441992D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA211C97-2C43-4117-BE17-1553A441992D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA211C97-2C43-4117-BE17-1553A441992D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA211C97-2C43-4117-BE17-1553A441992D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F27CFE5-4392-49BC-B4DE-7B982385FABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F27CFE5-4392-49BC-B4DE-7B982385FABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F27CFE5-4392-49BC-B4DE-7B982385FABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F27CFE5-4392-49BC-B4DE-7B982385FABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256BEF2A-E77D-4848-AA1E-E558FFDEB104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256BEF2A-E77D-4848-AA1E-E558FFDEB104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256BEF2A-E77D-4848-AA1E-E558FFDEB104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256BEF2A-E77D-4848-AA1E-E558FFDEB104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDF11099-4E8A-442A-9E14-700D458E9FB4} = {F1680E26-0EED-4332-A6CC-81E0B9A959B6}
+		{9517F6B3-27DF-4DB9-9A4A-36AD20519672} = {44E78735-AC02-4104-8AC1-1C71744F1BEA}
+		{6DE842FC-938B-40BC-B182-17CC65ED0D31} = {44E78735-AC02-4104-8AC1-1C71744F1BEA}
+		{9861180F-8012-4527-8D94-AD7A66981F2A} = {44E78735-AC02-4104-8AC1-1C71744F1BEA}
+		{DA211C97-2C43-4117-BE17-1553A441992D} = {44E78735-AC02-4104-8AC1-1C71744F1BEA}
+		{5F27CFE5-4392-49BC-B4DE-7B982385FABB} = {44E78735-AC02-4104-8AC1-1C71744F1BEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEFD0949-547D-409A-BFD6-D5A6A5471924}
+	EndGlobalSection
+EndGlobal
