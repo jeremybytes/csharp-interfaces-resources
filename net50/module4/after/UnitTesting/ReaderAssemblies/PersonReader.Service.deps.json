@@ -1,0 +1,26 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PersonReader.Service/1.0.0": {
+        "dependencies": {
+          "PersonReader.Interface": "1.0.0"
+        },
+        "runtime": {
+          "PersonReader.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PersonReader.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

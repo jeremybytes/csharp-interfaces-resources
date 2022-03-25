@@ -1,6 +1,15 @@
 # "C# Interfaces" Troubleshooting Guide
 
-## Issue #1  
+## Contents
+- [Issue 1](#issue-1) - Error message: "No connection could be made because the target machine actively refused it."  
+
+- [Issue 2](#issue-2) - When adding a type from another assembly (such as adding "IPersonReader" to the "ServiceReader" class), it has red squigglies and will not build.  
+
+- [Issue 3](#issue-3) - Error message in Visual Studio: "Process with an Id of XXXX is not running".
+
+***
+
+## Issue 1  
 **Error message when running the sample application.**
 ```
 'No connection could be made because the target machine actively refused it. [::ffff:127.0.0.1]:9874 (localhost:9874)'
@@ -27,7 +36,7 @@ Now when you run the application (using "F5" or the "Start" button on the toolba
 
 ***
 
-## Issue #2
+## Issue 2
 **When adding a type from another assembly (such as adding "IPersonReader" to the "ServiceReader" class), it has red squigglies and will not build.**
 
 ### Cause
@@ -65,3 +74,33 @@ using PersonReader.Interface;
 ```
 
 ***
+## Issue 3  
+**Error message when running the sample application in Visual Studio.**
+```
+'Process with an Id of XXXX is not running'
+```
+
+### Cause
+Visual Studio is trying to use IISExpress host the web application.
+
+### Solution
+**Visual Studio**: Get the latest version of the sample code from this repository. Both the .NET 5.0 and .NET 6.0 versions have been updated so that this issue should not occur.
+
+**Manual Fix**: If you would like to fix the existing code on your machine, switch the People.Service and PeopleViewer projects to run directly instead of using IISExpress. This is only if you want to fix your existing code. The easier option is to get the latest version of the code samples from this repository.
+
+1. In the Solution Explorer, right-click on the People.Service project and select "Set as Startup Project".  
+![Set as Startup Project](/images/Set_as_Startup.png)  
+
+2. On the toolbar, use the down arrow next to "IIS Express", and change the option to "People.Service".  
+![Set to the program name](/images/Set_to_program.png)  
+
+3. This should now show the name of the project ("People.Service") on the "Start Debugging" button.  
+![Set to the program name](/images/Program_set.png)  
+
+4. Repeat the above instructions for the "PeopleViewer" project.
+
+5. Set the Solution back to using multiple startup projects by following the steps in [Issue 1](#issue-1).
+
+There are quite a few steps here, so I would recommend getting the latest version of the code.
+***
+
