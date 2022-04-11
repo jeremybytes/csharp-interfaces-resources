@@ -7,14 +7,13 @@
       "sslPort": 0
     }
   },
-    "PeopleViewer": {
-      "commandName": "Project",
-      "dotnetRunMessages": "true",
-      "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+  "PeopleViewer": {
+    "commandName": "Project",
+    "dotnetRunMessages": "true",
+    "launchBrowser": true,
+    "applicationUrl": "http://localhost:5000",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
     }
   }
 }
